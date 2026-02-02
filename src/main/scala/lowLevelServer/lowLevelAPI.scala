@@ -10,7 +10,7 @@ import scala.concurrent.duration._
 import scala.language.postfixOps
 import scala.util.{Failure, Success}
 
-object test extends App {
+object lowLevelAPI extends App {
 
   implicit val system: ActorSystem = ActorSystem("LowLevelServerAPI")
   implicit val materializer: ActorMaterializer = ActorMaterializer()
