@@ -16,7 +16,7 @@ import scala.language.postfixOps
 
 case class Guitar(make : String, model : String)
 
-private object GuitarDB {
+object GuitarDB {
   case class CreateGuitar(guitar : Guitar)
   case class GuitarCreated(id : Int)
   case class FindGuitar(id : Int)
@@ -32,7 +32,7 @@ class GuitarDB extends Actor with ActorLogging {
   override def receive: Receive = onMessage(guitars)
 
 
-  private def onMessage(guitars: Map[Int, Guitar]): Receive = {
+  def onMessage(guitars: Map[Int, Guitar]): Receive = {
     case FindAllGuitar =>
       log.info("Finding all guitars ...")
       sender() ! guitars.values.toList
