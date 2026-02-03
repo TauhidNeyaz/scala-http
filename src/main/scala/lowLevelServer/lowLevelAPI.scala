@@ -79,7 +79,7 @@ object lowLevelAPI extends App {
         Methods 2. Asynchronously serve HTTP response
    */
 
-  private val AsyncrequestHandler : HttpRequest => Future[HttpResponse] = {
+  private val AsyncRequestHandler : HttpRequest => Future[HttpResponse] = {
     case HttpRequest(HttpMethods.GET, Uri.Path("/home"), _, _, _) =>
       Future(HttpResponse(
         StatusCodes.OK,
@@ -113,7 +113,7 @@ object lowLevelAPI extends App {
   }
 
   private val httpAsyncConnectionHandler= Sink.foreach[IncomingConnection] { connection =>
-    connection.handleWithAsyncHandler(AsyncrequestHandler)
+    connection.handleWithAsyncHandler(AsyncRequestHandler)
   }
   Http().bind("localhost", 8081).runWith(httpAsyncConnectionHandler)
 }
