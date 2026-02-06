@@ -1,23 +1,26 @@
 version := "0.1"
 
-scalaVersion := "2.12.8"
+scalaVersion := "2.13.12"
 
-val akkaVersion = "2.5.20"
-val akkaHttpVersion = "10.1.7"
-val scalaTestVersion = "3.0.5"
+val akkaVersion      = "2.8.8"
+val akkaHttpVersion  = "10.5.3"
+val scalaTestVersion = "3.2.19"
+val jwtVersion       = "9.4.4"
 
 libraryDependencies ++= Seq(
-  // akka streams
+  // Akka
+  "com.typesafe.akka" %% "akka-actor" % akkaVersion,
   "com.typesafe.akka" %% "akka-stream" % akkaVersion,
-  // akka http
+
+  // Akka HTTP
   "com.typesafe.akka" %% "akka-http" % akkaHttpVersion,
   "com.typesafe.akka" %% "akka-http-spray-json" % akkaHttpVersion,
-  "com.typesafe.akka" %% "akka-http-testkit" % akkaHttpVersion,
-  // testing
-  "com.typesafe.akka" %% "akka-testkit" % akkaVersion,
-  "org.scalatest" %% "scalatest" % scalaTestVersion,
+  "com.typesafe.akka" %% "akka-http-testkit" % akkaHttpVersion % Test,
 
-  // JWT
-  "com.pauldijou" %% "jwt-spray-json" % "2.1.0"
+  // Testing
+  "com.typesafe.akka" %% "akka-testkit" % akkaVersion % Test,
+  "org.scalatest" %% "scalatest" % scalaTestVersion % Test,
 
+  // JWT (NEW coordinates)
+  "com.github.jwt-scala" %% "jwt-spray-json" % jwtVersion
 )
