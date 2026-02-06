@@ -12,6 +12,7 @@
       <change beforePath="$PROJECT_DIR$/../scala-assignment/.metals/metals.lock.db" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../scala-assignment/.metals/metals.log" beforeDir="false" afterPath="$PROJECT_DIR$/../scala-assignment/.metals/metals.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../scala-assignment/.metals/metals.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/../scala-assignment/.metals/metals.mv.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,33 +55,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "ScalaTest.RouteDSLSpec.A digital library backend should return a book by hitting the query parameter endpoint.executor": "Run",
-    "ScalaTest.RouteSpec.A library backend should return a book by query params.executor": "Run",
-    "ScalaTest.RouteSpec.executor": "Run",
-    "ScalaTest.routeSpec.A library backend should return a book by query params (1).executor": "Run",
-    "ScalaTest.routeSpec.A library backend should return a book by query params (2).executor": "Run",
-    "ScalaTest.routeSpec.A library backend should return a book by query params.executor": "Run",
-    "ScalaTest.routeSpec.A library backend should return all the book.executor": "Run",
-    "ScalaTest.routeSpec.executor": "Run",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;ScalaTest.RouteDSLSpec.A digital library backend should return a book by hitting the query parameter endpoint.executor&quot;: &quot;Run&quot;,
+    &quot;ScalaTest.RouteSpec.A library backend should return a book by query params.executor&quot;: &quot;Run&quot;,
+    &quot;ScalaTest.RouteSpec.executor&quot;: &quot;Run&quot;,
+    &quot;ScalaTest.routeSpec.A library backend should return a book by query params (1).executor&quot;: &quot;Run&quot;,
+    &quot;ScalaTest.routeSpec.A library backend should return a book by query params (2).executor&quot;: &quot;Run&quot;,
+    &quot;ScalaTest.routeSpec.A library backend should return a book by query params.executor&quot;: &quot;Run&quot;,
+    &quot;ScalaTest.routeSpec.A library backend should return all the book.executor&quot;: &quot;Run&quot;,
+    &quot;ScalaTest.routeSpec.executor&quot;: &quot;Run&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/scala/specs" />
@@ -266,7 +267,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1770269271603</updated>
-      <workItem from="1770269273900" duration="9060000" />
+      <workItem from="1770269273900" duration="10456000" />
     </task>
     <servers />
   </component>
